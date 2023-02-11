@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_SkinWidth
       value: 0.0001
       objectReference: {fileID: 0}
+    - target: {fileID: 4943306246191238125, guid: fd96c87f8f2fca741b8676ec264a2494, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd96c87f8f2fca741b8676ec264a2494, type: 3}
 --- !u!4 &3535125520199719277 stripped

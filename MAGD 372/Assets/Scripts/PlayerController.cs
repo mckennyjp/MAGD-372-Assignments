@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     private bool groundedPlayer;
 
     private Vector2 movementInput = Vector2.zero;
-    private bool jumped = false;
+    public bool jumped = false;
 
     private void Start()
     {
@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnJump(InputAction.CallbackContext context)
     {
+        //jumped = context.ReadValue<bool>();
         jumped = context.action.triggered;
 
     }
